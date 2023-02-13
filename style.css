@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+.contenido
+{
+    margin-left: 25vw;
+    margin-top: 5vw;
+    margin-right: 10vw;
+}
+
+.logo{
+    width: 15vw;
+    margin: 4vw;
+    position: absolute;
+}
+.imagen
+{
+    position: relative;
+    top: 250px;
+}
+.fondo
+{
+    background-color: blanchedalmond;
+}
+.subtitulo
+{
+    text-align: center;
+    border:solid;
+    border-color: black;
+}
+nav{
+    position: absolute;
+    right: 0;
+    top: 2.5vw;
+
+}
+.home
+{
+    text-align: center;
+    border:solid;
+    border-color: black;
+    background-color: greenyellow;
+    color: white;
+    text-decoration: none;
+}
+.about_contact
+{
+    text-align: center;
+    border:solid;
+    border-color: black;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+}
