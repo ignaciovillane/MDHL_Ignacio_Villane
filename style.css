@@ -15,7 +15,11 @@
     gap: 1rem;
     padding: 7rem;
   }
-
+iframe{
+    margin: 1rem;
+    border-radius: 1rem;
+    
+}
 .flex-container-about
 {
     display: flex;
@@ -88,14 +92,23 @@ footer
 }
 table {
    text-align: left;
- /*  padding: 30px;
-   padding-top: 4px;    
-   padding-bottom: 5px;*/
+ 
   }
-  .flex-contacto
+  .flex-contacto,.flex-form
   {
     display: flex;
     justify-content: space-between; 
+  }
+ 
+  .flex-positions
+  {
+    display: flex;
+    justify-content: space-around;
+  }
+  .flex-talles
+  {
+    display: flex;
+    justify-content: flex-start; 
   }
   .flex-rules
   {
